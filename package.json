@@ -1,0 +1,26 @@
+{
+  "name": "@serverless/wsgi",
+  "version": "1.0.0",
+  "description": "A Serverless Component to deploy a WSGI application to AWS",
+  "main": "serverless.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serverless-components/wsgi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serverless-components/wsgi/issues"
+  },
+  "homepage": "https://github.com/serverless-components/wsgi#readme",
+  "dependencies": {
+    "@serverless/aws-api-gateway": "^1.2.0",
+    "@serverless/aws-lambda": "^3.0.0",
+    "fs-extra": "^8.1.0",
+    "tempy": "^0.3.0"
+  }
+}
